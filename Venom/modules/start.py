@@ -23,7 +23,7 @@ from Venom.modules.helpers import (
 )
 
 
-@VenomX.on_cmd(["start", "aistart"])
+@VenomX.on_cmd(["cstart", "aistart"])
 async def start(_, m: Message):
     if m.chat.type == ChatType.PRIVATE:
         accha = await m.reply_text(
@@ -55,7 +55,7 @@ async def start(_, m: Message):
         await add_served_chat(m.chat.id)
 
 
-@VenomX.on_cmd("help")
+@VenomX.on_cmd("chelp")
 async def help(client: VenomX, m: Message):
     if m.chat.type == ChatType.PRIVATE:
         hmm = await m.reply_photo(
@@ -73,7 +73,7 @@ async def help(client: VenomX, m: Message):
         await add_served_chat(m.chat.id)
 
 
-@VenomX.on_cmd("repo")
+@VenomX.on_cmd("crepo")
 async def repo(_, m: Message):
     await m.reply_text(
         text=SOURCE_READ,
