@@ -14,7 +14,7 @@ from Venom.database.users import add_served_user
 from Venom.modules.helpers import PNG_BTN
 
 
-@VenomX.on_cmd("ping")
+@VenomX.on_cmd("cping")
 async def ping(_, message: Message):
     await message.reply_sticker(sticker=random.choice(STICKER))
     start = datetime.now()
