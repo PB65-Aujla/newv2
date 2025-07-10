@@ -6,7 +6,7 @@ from Venom.database.chats import get_served_chats
 from Venom.database.users import get_served_users
 
 
-@VenomX.on_message(filters.command("stats") & filters.user(OWNER))
+@VenomX.on_message(filters.command("cstats") & filters.user(OWNER))
 async def stats(cli: Client, message: Message):
     users = len(await get_served_users())
     chats = len(await get_served_chats())
