@@ -36,5 +36,4 @@ chatsdb = db["chats"]    # Chats Collection
 # Import functions for use in other parts of the application
 from .admin import *
 from .shizu import *
-from .chatbot import
-*
+from .chatbot import *
