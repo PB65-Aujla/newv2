@@ -3,7 +3,7 @@ from typing import Callable, Union
 from pyrogram.enums import ChatMemberStatus
 from pyrogram.types import Message, CallbackQuery
 
-from nexichat import nexichat as app
+from Venom import VenomX as app
 
 
 def is_admins(func: Callable) -> Callable:
