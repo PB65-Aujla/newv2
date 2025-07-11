@@ -81,5 +81,4 @@ class ChatGptEs:
 API_KEY = "AIzaSyCfaEIfxTF5vX3S_AyxP-L5JGBpRP9wMIo"
 
 # Initialize ChatGptEs instance
-durga_api = ChatGptEs(api_key=API_KEY
-                     )
+durga_api = ChatGptEs(api_key=API_KEY)
