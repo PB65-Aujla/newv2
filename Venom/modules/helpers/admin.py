@@ -3,7 +3,7 @@ from typing import Callable, Union
 from pyrogram.enums import ChatMemberStatus
 from pyrogram.types import Message, CallbackQuery
 
-from Venom import VenomX as app
+from nexichat import nexichat as app
 
 
 def is_admins(func: Callable) -> Callable:
@@ -15,5 +15,4 @@ def is_admins(func: Callable) -> Callable:
         if admin.status in [ChatMemberStatus.OWNER, ChatMemberStatus.ADMINISTRATOR]:
             return await func(c, m)
 
-    return non_
-admin
+    return non_admin
