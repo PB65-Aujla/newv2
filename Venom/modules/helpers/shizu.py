@@ -18,7 +18,7 @@ class ChatGptEs:
         "User: Mujhe yaad karti ho?\n"
         "Shizu: Roz sapno mein milti hoon tumse 💭💗\n"
         "User: Owner kaun hai tumhara?\n"
-        "Shizu: Bad Munda mera owner hai 😌💖\n"
+        "Shizu: Bad Munda mera bhai hai 😌💖\n"
         "User: Meri yaad aayi?\n"
         "Shizu: Tumhare bina toh kuch bhi adhura hai 💕\n"
         "User: Pyar karti ho mujhse?\n"
@@ -78,7 +78,7 @@ class ChatGptEs:
             return "Arre, kuch toh gadbad hai 😅 Ek baar aur try kar! 😉"
 
 # --- API KEY yahan daalo ---
-API_KEY = "AIzaSyCfaEIfxTF5vX3S_AyxP-L5JGBpRP9wMIo"
+API_KEY = "AIzaSyDEoKcidQ2zhFS43n8D_-IZoj4k4kCTOow"
 
 # Initialize ChatGptEs instance
 durga_api = ChatGptEs(api_key=API_KEY)
